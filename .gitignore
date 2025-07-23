@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+.vscode
+.env
+.obsidian/
+dist/
+heatmap-data.json
+feeds-sub-data.json
+components.d.ts
+
+.vitepress/cache/
+.vitepress/dist/
+.vitepress/build/
