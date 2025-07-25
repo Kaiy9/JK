@@ -24,7 +24,7 @@ export default defineConfig({
   cleanUrls: true,
 
   // 输出目录
-   outDir: '.' // 将构建输出到 .vitepress 文件夹本身
+   outDir: './dist',// 将构建输出到 .vitepress 文件夹本身
 
   // 主题配置 https://vitepress.dev/reference/default-theme-config
   themeConfig: {
@@ -118,7 +118,8 @@ export default defineConfig({
     './README.md',
   ],
 
+
   sitemap: {
-    hostname: 'https://yqqy.top',
+  hostname: 'https://yqqy.top',
   },
 })

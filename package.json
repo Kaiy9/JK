@@ -13,7 +13,7 @@
   "scripts": {
     "docs:dev": "vitepress dev --host",
     "docs:gen": "node .vitepress/theme/utils/init.data.js",
-    "docs:build": "node .vitepress/theme/utils/init.data.js && vitepress build docs",
+    "docs:build": "node .vitepress/theme/utils/init.data.js && vitepress build ",
     "build": "npm run generate:rss && vitepress build docs",
     "build:rss": "wait-on packages/shared/dist && pnpm --filter vitepress-plugin-rss build",
     "build:docs": "vitepress build docs",
