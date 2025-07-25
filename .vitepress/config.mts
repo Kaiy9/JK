@@ -16,10 +16,6 @@ export default defineConfig({
   title: metaData.title,
   description: metaData.description,
 	
-  buildEnd: (config: SiteConfig) => {
-  createRssFileZH(config);
-  createRssFileEN(config);
-  },
   
   // 最后更新时间
   lastUpdated: true,

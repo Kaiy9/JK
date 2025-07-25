@@ -1,11 +1,11 @@
-// https://vitepress.dev/guide/custom-theme
 import { h, watch } from 'vue'
-import type { Theme } from 'vitepress'
 import { useData, EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
-import comment from './components/comment.vue'
-import imageViewer from './components/imageViewer.vue'
-import footBefore from './components/footBefore.vue'
+
+import { createMediumZoomProvider } from './composables/useMediumZoom'
+
+import MLayout from './components/MLayout.vue'
+import MNavLinks from './components/mNavLinks.vue'
 
 import './styles/index.scss'
 
@@ -25,16 +25,19 @@ if (typeof window !== 'undefined') {
       return Promise.all(
         keyList.map(function (key) {
           return caches.delete(key)
-        })
+        }),
       )
     })
   }
 }
 
+let homePageStyle: HTMLStyleElement | undefined
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
     const props: Record<string, any> = {}
+    // 获取 frontmatter
     const { frontmatter } = useData()
 
     /* 添加自定义 class */
@@ -42,38 +45,24 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
-    return h(DefaultTheme.Layout, props, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      "doc-after": () => h(comment),
-      "doc-bottom": () => h(imageViewer),
-      "doc-footer-before": () => h(footBefore),
-    })
+    return h(MLayout, props)
   },
-  // enhanceApp(ctx) {
-  //     DefaultTheme.enhanceApp(ctx);
-
-  //     ctx.app.component('ArticleMetadata', ArticleMetadata);
-  // },
-
   enhanceApp({ app, router }: EnhanceAppContext) {
+    createMediumZoomProvider(app, router)
+
+    app.component('MNavLinks', MNavLinks)
+
+    app.provide('DEV', process.env.NODE_ENV === 'development')
+
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.data.relativePath,
         () => updateHomePageStyle(location.pathname === '/'),
-        { immediate: true }
+        { immediate: true },
       )
     }
-  }
-
-  // Layout: () => {
-  //   return h(DefaultTheme.Layout, null, {
-  //     // https://vitepress.dev/guide/extending-default-theme#layout-slots
-  //   })
-  // },
-  // enhanceApp({ app, router, siteData }) {
-  //   // ...
-  // }
-} satisfies Theme
+  },
+}
 
 if (typeof window !== 'undefined') {
   // detect browser, add to class for conditional styling
@@ -87,8 +76,6 @@ if (typeof window !== 'undefined') {
   }
 }
 
-let homePageStyle: HTMLStyleElement | undefined
-
 // Speed up the rainbow animation on home page
 function updateHomePageStyle(value: boolean) {
   if (value) {
@@ -99,10 +86,8 @@ function updateHomePageStyle(value: boolean) {
     :root {
       animation: rainbow 12s linear infinite;
     }`
-    // console.log(homePageStyle);
     document.body.appendChild(homePageStyle)
   } else {
-    // console.log(111);
     if (!homePageStyle) return
 
     homePageStyle.remove()
