@@ -100,7 +100,9 @@ export default defineConfig({
   // markdown配置
   markdown: markdown,
 
-
+  // ... 其他配置
+  ignoreDeadLinks: true
+}
 
 
 
