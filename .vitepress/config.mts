@@ -101,10 +101,7 @@ export default defineConfig({
   markdown: markdown,
 
   // ... 其他配置
-  ignoreDeadLinks: true
-}
-
-
+  ignoreDeadLinks: true,
 
    // 路由重写
   rewrites: {
