@@ -5,7 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import { createMediumZoomProvider } from './composables/useMediumZoom'
 
 import MLayout from './components/MLayout.vue'
-import MNavLinks from './components/MNavLinks.vue'
+import MNavLinks from './components/mNavLinks.vue'
 
 import './styles/index.scss'
 

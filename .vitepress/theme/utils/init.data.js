@@ -8,7 +8,7 @@ try {
 }
 
 try {
-    execSync('node .vitepress/theme/utils/feeds.data.js', { stdio: 'inherit' });
+    //execSync('node .vitepress/theme/utils/feeds.data.js', { stdio: 'inherit' });
     console.log('feeds.data.js 执行成功');
 } catch (error) {
     console.error('执行 feeds.data.js 时发生错误:', error);
