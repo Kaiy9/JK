@@ -1,0 +1,54 @@
+name: Build And Deploy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 0 * * *'
+  push:
+    branches: 
+      - main
+    paths:
+      - 'posts/**'
+      - 'pages/**'
+      - 'package.json'
+      - '.vitepress/**'
+
+permissions: 
+  contents: write
+
+env:
+  TZ: Asia/Shanghai
+  VITE_GISCUS_REPO_ID: ${{ secrets.VITE_GISCUS_REPO_ID }}
+  VITE_GISCUS_CATEGORY_ID: ${{ secrets.VITE_GISCUS_CATEGORY_ID }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Install PNpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
+      - name: Install Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Build
+        run: pnpm i && pnpm run docs:build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          repository-name: yqchilde/yqchilde.github.io
+          branch: gh-pages
+          folder: dist

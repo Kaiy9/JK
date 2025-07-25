@@ -4,9 +4,9 @@ layout: home
 layoutClass: "m-home-layout"
 
 hero:
-  name: KYJL's Blog
-  text: 开源节流
-  tagline: 开源是进步的阶梯，节流是阶梯的支撑
+  name: JieLiu.xyz
+  text: 线报资源分享
+  tagline: 省钱第一站，从这里开始！
   image:
     src: /logo.png
     alt: 开源节流
@@ -23,34 +23,34 @@ hero:
       theme: alt
 features:
   - icon: 📖
-    title: 我的随笔
-    details: 整理所学知识，推出新型观点
-    link: /博客/我的随笔
+    title: 我的博客
+    details: 记录人生所写，帮助万千网友
+    link: /blog
     linkText: 前往阅读
   - icon: 💡
     title: 羊毛线报
-    details: 罗列免费羊毛，节流自己的收入
+    details: 罗列免费羊毛，节流钱包收入
     link: /线报/福利活动
     linkText: 前往搞钱
   - icon: 🌍
     title: 网址导航
-    details: 导航热门工具，我的收藏网址
-    link: /海纳百川/网址导航
+    details: 导航热门工具，便利打开网站
+    link: /nav
     linkText: 前往导航
   - icon: 🚀
     title: 机场推荐
-    details: 推荐免费机场，开始上网
-    link: /海纳百川/网址导航
+    details: 搜寻免费机场，搜索万能网站
+    link: /节流/免费机场
     linkText: 前往获取
   - icon: 🧰
-    title: 福利活动
-    details: 福利活动推荐
-    link: /海纳百川/网址导航
+    title: 资源分享
+    details: 推荐共享资源，享受节流快乐
+    link: /节流/羊毛线报
     linkText: 前往阅读
   - icon: 📘
     title: 情不知所起，一往而深。
-    details: '<small class="bottom-small">           97</small>'
-    link: /海纳百川/网址导航
+    details: 开源是进步的阶梯，节流是阶梯的支撑
+    link: /about
     linkText: 前往导航
 ---
 

@@ -1,7 +1,6 @@
 ---
 description: 导航
 layoutClass: m-nav-layout
-outline: [2, 3, 4]
 showArticleMetadata: false
 editLink: false
 showComment: false
@@ -12,10 +11,11 @@ import { NAV_DATA } from './data'
 </script>
 <style src="./style.scss"></style>
 
-# 工具导航
+# 友情链接
 
-::: info
-* 🤔 整理本人生活工作中常用的一些站点
-:::
+::: 信息
+
+来推荐你的网站，与我们平等交换链接，互相共享。
+
 
 <MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>

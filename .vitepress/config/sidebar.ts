@@ -5,12 +5,63 @@ import matter from 'gray-matter'
 const sync = fg.sync;
 
 export const sidebar: DefaultTheme.Sidebar = {
-    '/博客': getItemsByDate('posts/blog'),
-    '/教程': getItemsByCategory('posts/教程'),
-    '/开源': getItemsByCategory('posts/开源'),
-    '/节流': getItemsByCategory('posts/节流'),
-    '/资源': getItemsByCategory('posts/资源'),
-}
+    '/blog': getItemsByDate('posts/blog'),
+    '/教程/': [
+    {
+      text: '赚钱提升理财',
+      collapsed: false,
+      items: [
+        { text: '自媒体相关', link: '/教程/自媒体相关' },
+        { text: '创业相关', link: '/教程/创业相关' },
+        { text: '英语与西语', link: '/教程/英语与西语' },
+        { text: '理财知识', link: '/教程/理财知识' },
+        { text: '副业收入', link: '/教程/副业收入' },
+        { text: '提升自我', link: '/教程/提升自我' },
+      ],
+    },
+  ],
+  '/节流/': [
+    {
+      text: '羊毛福利',
+      collapsed: false,
+      items: [
+        { text: '羊毛线报', link: '/节流/羊毛线报' },
+        { text: '福利活动', link: '/节流/福利活动' },
+        { text: '教育优惠', link: '/节流/教育优惠' },
+        { text: '免费机场', link: '/节流/免费机场' },
+        { text: '账号共享', link: '/节流/账号共享' },
+      ],
+    },
+  ],
+   '/资源/': [
+    {
+      text: '资源共享',
+      // collapsed: false,
+      items: [
+        { text: '软件资源', link: '/资源/软件资源' },
+        { text: '影视资源', link: '/资源/影视资源' },
+        { text: 'iPad资源', link: '/资源/iPad资源' },
+        { text: '小说资源', link: '/资源/小说资源' },
+        { text: '图片壁纸', link: '/资源/图片资源' },
+        { text: '文件资源', link: '/资源/文件资源' },
+        { text: '经验分享', link: '/资源/经验分享' },
+      ],
+    },
+  ],
+    '/工具/': [
+    {
+      text: '工具与软件',
+      collapsed: false,
+      items: [
+        { text: '测速工具', link: '/工具/测速工具' },
+        { text: '代理软件', link: '/工具/代理软件' },
+        { text: '好物分享', link: '/工具/好物分享' },
+        { text: '我的装备', link: '/工具/我的装备' },
+      ],
+    },
+  ],
+};
+
 
 // 定义新类型，继承DefaultTheme.SidebarItem，并增加新字段
 export type SidebarItem = DefaultTheme.SidebarItem & {
@@ -43,7 +94,7 @@ function getItemsByDate(path: string) {
             let title = name;
             sync(`${path}/${year}/${title}/*.md`, {
                 onlyDirectories: false,
-                objectMode: true,
+                objectMode: true
             }).forEach((article) => {
                 const { data } = matter.read(`${article.path}`);
                 if (data.isTop) {
@@ -93,6 +144,27 @@ function getItemsByDate(path: string) {
     // 添加序号
     sortArticleItems(yearGroups);
     return yearGroups;
+}
+
+// 根据date 排序, 逆序
+function sortArticleItems(groups: SidebarItem[]) {
+    groups.forEach((group) => {
+        (group.items as SidebarItem[] | undefined)?.sort((a, b) => {
+            if (a.sort && b.sort) {
+                return a.sort - b.sort;
+            }
+
+            if (a.date && b.date) {
+                return new Date(b.date).getTime() - new Date(a.date).getTime()
+            }
+            return 0;
+        });
+
+        (group.items as SidebarItem[] | undefined)?.forEach((item) => {
+            item.text = `📝 ${item.text}`;
+            delete item.date;
+        });
+    });
 }
 
 // 根据 posts/分类/细分类/标题/README.md的目录格式, 获取侧边栏分组及分组下标题
@@ -173,23 +245,4 @@ function getItemsByCategory(path: string) {
     return groups;
 }
 
-// 根据date 排序, 逆序
-function sortArticleItems(groups: SidebarItem[]) {
-    groups.forEach((group) => {
-        (group.items as SidebarItem[] | undefined)?.sort((a, b) => {
-            if (a.sort && b.sort) {
-                return a.sort - b.sort;
-            }
 
-            if (a.date && b.date) {
-                return new Date(b.date).getTime() - new Date(a.date).getTime()
-            }
-            return 0;
-        });
-
-        (group.items as SidebarItem[] | undefined)?.forEach((item) => {
-            item.text = `📝 ${item.text}`;
-            delete item.date;
-        });
-    });
-}
