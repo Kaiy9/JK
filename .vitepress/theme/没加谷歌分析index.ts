@@ -6,7 +6,6 @@ import DefaultTheme from 'vitepress/theme'
 import comment from './components/comment.vue'
 import imageViewer from './components/imageViewer.vue'
 import footBefore from './components/footBefore.vue'
-import googleAnalytics from 'vitepress-plugin-google-analytics'
 
 import './styles/index.scss'
 
@@ -60,9 +59,6 @@ export default {
   // },
 
   enhanceApp({ app, router }: EnhanceAppContext) {
-    googleAnalytics({
-      id: 'G-90VN3KSXX9', //跟踪ID，在analytics.google.com注册即可
-    })
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.data.relativePath,
@@ -116,4 +112,3 @@ function updateHomePageStyle(value: boolean) {
     homePageStyle = undefined
   }
 }
-

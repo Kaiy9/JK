@@ -25,17 +25,15 @@ export default defineConfig({
 
   // 输出目录
    outDir: './dist',// 将构建输出到 .vitepress 文件夹本身
-
-  // 主题配置 https://vitepress.dev/reference/default-theme-config
+  
+   // 主题配置 https://vitepress.dev/reference/default-theme-config
   themeConfig: {
     nav: nav,
     sidebar: sidebar,
 
-    logo: {
-      light: '/logo_light.svg',
-      dark: '/logo_night.svg'
-    },
-    
+    // 站点Logo
+    logo: '/logo.png', // 需要在public文件夹中添加logo.png
+
      // 图片懒加载
     image: {
       lazyLoading: true,
@@ -46,7 +44,7 @@ export default defineConfig({
       level: 'deep'
     },
     editLink: {
-      pattern: 'https://github.com/yqchilde/MyNewBlog/edit/main/:path',
+      pattern: 'https://www.jieliu.xyz/',
       text: '不妥之处，敬请雅正'
     },
     lastUpdated: {
@@ -87,13 +85,13 @@ export default defineConfig({
 
     // @ts-ignore
     articleMetadataConfig: {
-      author: 'YY', // 文章全局默认作者名称
+      author: 'jieliu.xyz', // 文章全局默认作者名称
       authorLink: '/about', // 点击作者名时默认跳转的链接
     },
     // 自定义扩展: 文章版权配置
     copyrightConfig: {
-      license: '署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)',
-      licenseLink: 'https://creativecommons.org/licenses/by/4.0/legalcode.zh-hans'
+     license: '署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)',
+     licenseLink: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh',
     },
   },
 
@@ -120,6 +118,6 @@ export default defineConfig({
 
 
   sitemap: {
-  hostname: 'https://yqqy.top',
+  hostname: 'https://www.jieliu.xyz/',
   },
 })

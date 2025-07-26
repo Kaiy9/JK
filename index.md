@@ -42,12 +42,12 @@ features:
     details: 搜寻免费机场，搜索万能网站
     link: /节流/免费机场
     linkText: 前往获取
-  - icon: 🧰
+  - icon: 📚
     title: 资源分享
     details: 推荐共享资源，享受节流快乐
     link: /节流/羊毛线报
     linkText: 前往阅读
-  - icon: 📘
+  - icon: 🛠️
     title: 情不知所起，一往而深。
     details: 开源是进步的阶梯，节流是阶梯的支撑
     link: /about
@@ -69,6 +69,45 @@ features:
   justify-content: flex-end;
   align-items: end;
 }
+
+/* 新加的！！！！！！！！！！
+/* 新加的
+/* 移动端适配 - 当宽度小于959px时 */
+@media (max-width: 959px) {
+  /* 改为单列布局 */
+  .home-container {
+    grid-template-columns: 1fr; /* 使用1fr而不是2fr */
+    grid-template-areas: 
+      "content" 
+      "sidebar";
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* 减少移动端的间距 */
+  .home-content-area,
+  .home-sidebar {
+    gap: 1.5rem;
+    width: 100%;
+  }
+}
+
+/* 小屏幕移动端进一步优化 */
+@media (max-width: 480px) {
+  .home-container {
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  }
+  
+
+  .home-content-area,
+  .home-sidebar {
+    gap: 1rem;
+  }
+
 
 @media (min-width: 768px) {
   .VPHome {

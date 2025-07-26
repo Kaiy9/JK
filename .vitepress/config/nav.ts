@@ -58,8 +58,6 @@ export const nav: DefaultTheme.Config['nav'] = [
           { text: '小说资源', link: '/资源/小说资源' },
         ],
       },
-      { text: '在线工具', link: '/开源/经验分享' },
-      { text: '经验分享', link: '/开源/经验分享' },
     ],
     activeMatch: '^/资源',
   },
@@ -85,5 +83,9 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: '97',
     link: '/',
+  },
+  {
+    text: '测试',
+    link: '/97',
   },
 ]
