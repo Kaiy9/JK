@@ -70,10 +70,11 @@ export const nav: DefaultTheme.Config['nav'] = [
         text: '工具与软件',
         items: [
           { text: '测速工具', link: '/工具/测速工具' },
-          { text: '代理软件', link: '/工具/代理软件' },
+          { text: '在线工具', link: '/工具/在线工具' },
+          { text: '开发工具', link: '/工具/开发工具' },
           { text: '好物分享', link: '/工具/好物分享' },
           { text: '我的装备', link: '/工具/我的装备' },
-          { text: '', link: '/工具/教育优惠' },
+          { text: '开发工具', link: '/工具/开发工具' },
           { text: '', link: '/工具/免费机场' },
           { text: '', link: '/工具/账号共享' },
         ],

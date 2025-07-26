@@ -54,9 +54,11 @@ export const sidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: '测速工具', link: '/工具/测速工具' },
-        { text: '代理软件', link: '/工具/代理软件' },
+        { text: '在线工具', link: '/工具/在线工具' },
+        { text: '开发工具', link: '/工具/开发工具' },
         { text: '好物分享', link: '/工具/好物分享' },
         { text: '我的装备', link: '/工具/我的装备' },
+        { text: '开发工具', link: '/工具/开发工具' },
       ],
     },
   ],
