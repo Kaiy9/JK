@@ -68,7 +68,7 @@ const initWaline = async () => {
         link: '网址',
         optional: '可选',
         placeholder: '报上言来',
-        sofa: '鸿雁传书',
+        sofa: '一起成长一起进步',
         submit: '提交',
         like: '点赞',
         cancelLike: '取消点赞',

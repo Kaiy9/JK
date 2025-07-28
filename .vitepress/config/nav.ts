@@ -50,6 +50,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       {
         text: '资源共享',
         items: [
+          { text: '苹果id分享', link: '/资源/苹果账号' },
           { text: '软件资源', link: '/资源/软件资源' },
           { text: '影视资源', link: '/资源/影视资源' },
           { text: 'iPad资源', link: '/资源/iPad资源' },
@@ -85,7 +86,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     link: '/',
   },
   {
-    text: '测试',
+    text: '随机',
     link: '/97',
   },
 ]

@@ -4,7 +4,7 @@
  */
 
 // 服务器URL配置
-const WALINE_SERVER_URL = 'https://lycanclaw-comment.netlify.app/.netlify/functions/comment';
+const WALINE_SERVER_URL = 'https://waline.jieliu.xyz/';
 
 // 缓存相关常量
 const RECENT_COMMENTS_CACHE_KEY = 'lycan_recent_comments';

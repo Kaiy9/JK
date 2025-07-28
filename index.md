@@ -38,7 +38,7 @@ features:
     link: /nav
     linkText: 前往导航
   - icon: 🚀
-    title: 机场推荐
+    title: 上网推荐
     details: 搜寻免费机场，搜索万能网站
     link: /节流/免费机场
     linkText: 前往获取
