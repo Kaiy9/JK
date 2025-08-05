@@ -130,7 +130,7 @@ export default defineConfig({
   ],
 
   // 忽略死链接
-  ignoreDeadLinks: false, //关闭忽略死链，不配置即可，非常不建议设置为true
+  ignoreDeadLinks: true, //关闭忽略死链，不配置即可，非常不建议设置为true
 
   // 外观设置 - 支持自动切换
   appearance: true,
