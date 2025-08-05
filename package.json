@@ -45,6 +45,14 @@
     "vitepress": "^1.6.3"
   
   },
+  "name": "jieliu",
+  "version": "1.0.0",
+  "description": "- 节流网   - 限报活动福利资源   - 学习各种教程",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaiy9/JK.git"
+  },
   "type": "module",
  "scripts": {
   "docs:dev": "vitepress dev . --host",
