@@ -5,7 +5,7 @@ import { nextTick, provide } from "vue";
 // import Waline from '@waline/client';
 import MAsideSponsors from './MAsideSponsors.vue';
 import NotFound from "./404.vue";
-import Comment from "./Comment.vue";
+import Comment from "./comment.vue";
 import PostCopyright from "./postCopyright.vue";
 import BackToTop from "./BackToTop.vue";
  // import tag from "./tag.vue";

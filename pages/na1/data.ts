@@ -352,14 +352,6 @@ export const NAV_DATA: NavData[] = [
     title: '一些常用的网站',
     items: [
       {
-        badge: '周一更新',
-        icon: '/icons/frontender-ua.png',
-        title: 'Frontend Weekly',
-        desc: '前端周刊',
-        link: 'https://frontender-ua.medium.com',
-      link: "https://gofile.io/",
-    },
-      {
       title: "NO视频",
       icon: "https://logo.clearbit.com/www.novipnoad.net",
       link: "https://www.novipnoad.net/",
