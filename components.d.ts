@@ -8,7 +8,13 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     404: typeof import('./.vitepress/theme/components/404.vue')['default']
+    ACard: typeof import('@arco-design/web-vue')['Card']
+    ACol: typeof import('@arco-design/web-vue')['Col']
+    AList: typeof import('@arco-design/web-vue')['List']
+    AListItem: typeof import('@arco-design/web-vue')['ListItem']
+    ARow: typeof import('@arco-design/web-vue')['Row']
     ArticleMetadata: typeof import('./.vitepress/theme/components/ArticleMetadata.vue')['default']
+    ATag: typeof import('@arco-design/web-vue')['Tag']
     BackToTop: typeof import('./.vitepress/theme/components/BackToTop.vue')['default']
     Comment: typeof import('./.vitepress/theme/components/comment.vue')['default']
     Confetti: typeof import('./.vitepress/theme/components/confetti.vue')['default']

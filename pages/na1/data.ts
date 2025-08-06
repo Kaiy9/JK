@@ -1,5 +1,6 @@
 // @ts-nocheck
 import type { NavData } from '../.vitepress/theme/types'
+
 export const NAV_DATA: NavData[] = [
   {
     title: '娱乐休闲',
@@ -83,24 +84,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://netflix.com',
       },
       {
-        icon: 'https://disneyplus.com/favicon.ico',
-        title: 'Disney+',
-        desc: '迪士尼的在线流媒体视频点播平台',
-        link: 'https://disneyplus.com',
-      },
-      {
-        icon: 'https://primevideo.com/favicon.ico',
-        title: 'Prime Video',
-        desc: '亚马逊凑数的视频',
-        link: 'https://primevideo.com',
-      },
-      {
-        icon: 'https://hulu.com/favicon.ico',
-        title: 'Hulu',
-        desc: '网络付费随选流影片及影视节目的服务',
-        link: 'https://hulu.com',
-      },
-      {
         icon: 'https://twitter.com/favicon.ico',
         title: 'Twitter',
         desc: '草拟吗马斯克',
@@ -167,12 +150,6 @@ export const NAV_DATA: NavData[] = [
         desc: '需要内部授权码',
       },
       {
-        icon: 'https://neveragain.allstatics.com/2019/assets/icon/logo/edraw-mindmaster-square.svg',
-        title: 'mindmaster',
-        link: 'https://www.mindmaster.io/',
-        desc: '亿图思维(流程图)，需付费(可以免费试用)',
-      },
-      {
         icon: 'https://img.js.design/assets/webImg/favicon.ico',
         title: '即时设计',
         desc: '同时创造，即时设计',
@@ -228,7 +205,7 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://x.com/favicon.ico',
         title: '微博',
-        desc: '女厕',
+        desc: '微博',
         link: 'https://x.com',
       },
       {
@@ -275,17 +252,7 @@ export const NAV_DATA: NavData[] = [
       title: "互联网档案馆",
       icon: "https://logo.clearbit.com/archive.org",
       link: "https://archive.org/",
-    },
-       {
-      title: "iris",
-      icon: "https://logo.clearbit.com/iris.to",
-      link: "https://iris.to/",
-    },
-    {
-      title: "Shipito",
-      icon: "https://logo.clearbit.com/www.shipito.com",
-      link: "https://www.shipito.com/",
-    },
+   },
     {
       title: "PayPal美国",
       icon: "https://logo.clearbit.com/www.paypal.com",
@@ -334,6 +301,16 @@ export const NAV_DATA: NavData[] = [
         desc: 'IP 伪装度检测',
         link: 'https://whoer.net',
       },
+       {
+      title: "IP.SB",
+      icon: "https://logo.clearbit.com/ip.sb",
+      link: "https://ip.sb/",
+    },
+    {
+      title: "IP111",
+      icon: "https://logo.clearbit.com/ip111.cn",
+      link: "http://ip111.cn/",
+    },
       {
         icon: 'https://ping0.cc/favicon.ico',
         title: 'PING0',
@@ -394,12 +371,14 @@ export const NAV_DATA: NavData[] = [
     {
       title: "伪名称生成器",
       icon: "https://logo.clearbit.com/www.fakenamegenerator.com",
+      desc: '身份',
       link: "https://www.fakenamegenerator.com/",
     },
     {
       title: "美国身份证生成",
       icon: "https://logo.clearbit.com/www.ssnzk.com",
       link: "https://www.ssnzk.com/",
+      desc: '生成身份',
     },
        {
       title: "云短信",
@@ -412,34 +391,14 @@ export const NAV_DATA: NavData[] = [
       link: "https://sms-activate.io/",
     },
     {
-      title: "人人影视",
-      icon: "https://logo.clearbit.com/yyets.dmesg.app",
-      link: "https://yyets.dmesg.app/",
-    },
-    {
-      title: "厂长资源",
+      title: "厂长资源影视",
       icon: "https://logo.clearbit.com/czzy.top",
-      link: "https://czzy.top/",
+      link: "www.czzymovie.com",
     },
     {
-      title: "FIX字幕侠",
-      icon: "https://logo.clearbit.com/zimuxia.cn",
-      link: "http://zimuxia.cn/",
-    },
-    {
-      title: "Porn Dude",
+      title: "Porn Dude导航",
       icon: "https://logo.clearbit.com/theporndude.com",
       link: "https://theporndude.com/zh",
-    },
-    {
-      title: "IP.SB",
-      icon: "https://logo.clearbit.com/ip.sb",
-      link: "https://ip.sb/",
-    },
-    {
-      title: "IP111",
-      icon: "https://logo.clearbit.com/ip111.cn",
-      link: "http://ip111.cn/",
     },
      {
       title: "指纹检测",
@@ -452,16 +411,6 @@ export const NAV_DATA: NavData[] = [
       link: "https://pc.woozooo.com/",
     },
     {
-      title: "奶牛快传",
-      icon: "https://logo.clearbit.com/cowtransfer.com",
-      link: "https://cowtransfer.com/",
-    },
-         {
-      title: "曲奇云",
-      icon: "https://logo.clearbit.com/quqi.com",
-      link: "https://quqi.com/",
-    },
-    {
       title: "PikPak",
       icon: "https://logo.clearbit.com/mypikpak.com",
       link: "https://mypikpak.com/",
@@ -472,64 +421,21 @@ export const NAV_DATA: NavData[] = [
       link: "https://pan.quark.cn/",
     },
     {
-      title: "迅雷云盘",
-      icon: "https://logo.clearbit.com/pan.xunlei.com",
-      link: "https://pan.xunlei.com/",
-    },
-    {
-      title: "天翼云盘",
-      icon: "https://logo.clearbit.com/cloud.189.cn",
-      link: "https://cloud.189.cn/",
-    },
-    {
       title: "阿里云盘",
       icon: "https://logo.clearbit.com/www.aliyundrive.com",
       link: "https://www.aliyundrive.com/",
     },
-    {
-      title: "百度网盘",
-      icon: "https://logo.clearbit.com/pan.baidu.com",
-      link: "https://pan.baidu.com/",
-    },
-    {
-      title: "OneDrive",
-      icon: "https://logo.clearbit.com/onedrive.live.com",
-      link: "https://onedrive.live.com/",
-    },
-      {
-        badge: '周一更新',
-        icon: 'https://img.alicdn.com/imgextra/i3/O1CN01uKTVpD1UK8BCxFBwo_!!6000000002498-2-tps-500-500.png',
-        title: 'MDH Weekly',
-        desc: '云谦的前端周刊',
-        link: 'https://mdhweekly.com/weekly',
-      },
     ],
   },
   {
     title: '一些社区',
     items: [
       {
-        icon: 'https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a',
-        title: 'Stack Overflow',
-        desc: '全球最大的技术问答网站',
-        link: 'https://stackoverflow.com',
-      },
-      {
         title: '稀土掘金',
         icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png',
         desc: '面向全球中文开发者的技术内容分享与交流平台',
         link: 'https://juejin.cn',
       },
-        {
-      title: "庭说",
-      icon: "https://logo.clearbit.com/tingtalk.me",
-      link: "https://tingtalk.me/",
-    },
-    {
-      title: "宝塔迷",
-      icon: "https://logo.clearbit.com/www.baota.me",
-      link: "https://www.baota.me/",
-    },
     {
       title: "安知鱼",
       icon: "https://logo.clearbit.com/anzhiy.cn",
@@ -586,21 +492,6 @@ export const NAV_DATA: NavData[] = [
       link: "https://v2raya.org/",
     },
     {
-      title: "Lsky Pro",
-      icon: "https://logo.clearbit.com/docs.lsky.pro",
-      link: "https://docs.lsky.pro/docs/free/v2/",
-    },
-    {
-      title: "哪吒监控",
-      icon: "https://logo.clearbit.com/nezha.wiki",
-      link: "https://nezha.wiki/",
-    },
-    {
-      title: "悟空百科",
-      icon: "https://logo.clearbit.com/didiboy0702.gitbook.io",
-      link: "https://didiboy0702.gitbook.io/wukongdaily/",
-    },
-    {
       title: "LX Music",
       icon: "https://logo.clearbit.com/lxmusic.toside.cn",
       link: "https://lxmusic.toside.cn/",
@@ -626,16 +517,6 @@ export const NAV_DATA: NavData[] = [
       link: "https://trackerslist.com/",
     },
     {
-      title: "LinuxMirrors",
-      icon: "https://logo.clearbit.com/linuxmirrors.cn",
-      link: "https://linuxmirrors.cn/",
-    },
-    {
-      title: "软体考古学家",
-      icon: "https://logo.clearbit.com/blog.brachiosoft.com",
-      link: "https://blog.brachiosoft.com/",
-    },
-    {
       title: "大数据知识体系",
       icon: "https://logo.clearbit.com/www.sqlboy.tech",
       link: "https://www.sqlboy.tech/",
@@ -649,16 +530,6 @@ export const NAV_DATA: NavData[] = [
       title: "PagerMaid-Pyro",
       icon: "https://logo.clearbit.com/xtaolabs.com",
       link: "https://xtaolabs.com/",
-    },
-    {
-      title: "Halo Documents",
-      icon: "https://logo.clearbit.com/docs.halo.run",
-      link: "https://docs.halo.run/",
-    },
-    {
-      title: "Free for Developers",
-      icon: "https://logo.clearbit.com/free-for.dev",
-      link: "https://free-for.dev/",
     },
     {
       title: "LearnData 开源笔记",
@@ -755,12 +626,6 @@ export const NAV_DATA: NavData[] = [
       icon: "https://logo.clearbit.com/blog.cmliussss.com",
       link: "https://blog.cmliussss.com/",
     },
-      {
-        title: '知乎',
-        icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png',
-        desc: '中文互联网高质量的问答社区和创作者聚集的原创内容平台',
-        link: 'https://juejin.cn',
-      },
     ],
   },
   {
@@ -791,12 +656,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://devtool.tech',
       },
       {
-        icon: 'https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png',
-        title: '微信小程序文档',
-        desc: '微信小程序官方开发者文档',
-        link: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
-      },
-      {
         icon: 'https://carbon.now.sh/favicon.ico',
         title: 'tg问题',
         desc: '有Tg使用的问题或许可以在这里找到方案',
@@ -807,12 +666,6 @@ export const NAV_DATA: NavData[] = [
         title: 'iconfont',
         desc: '国内功能很强大且图标内容很丰富的矢量',
         link: 'https://www.iconfont.cn',
-      },
-      {
-        icon: 'https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/logo.svg',
-        title: 'IconPark 图标库',
-        desc: 'IconPark图标库',
-        link: 'https://iconpark.oceanengine.com/official',
       },
       {
         icon: 'https://emoji.muan.co/appicon.png',
@@ -851,18 +704,6 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://www.mianshipai.com/favicon.ico',
       },
       {
-        title: '前端面试导航',
-        link: 'https://www.codecrack.cn/zh/',
-        desc: '面试宝典·知识体系精选',
-        icon: 'https://www.codecrack.cn/img/favicon.svg',
-      },
-      {
-        title: 'LeetCode Hot 100',
-        link: 'https://leetcode.cn/studyplan/top-100-liked/',
-        desc: 'LeetCode 热门 100 题',
-        icon: 'https://pic.leetcode.cn/1690881907-oVEPdc-Top%20100%20Liked%20%F0%9F%91%8C@3-240x240.png',
-      },
-      {
         title: '代码随想录',
         link: 'https://programmercarl.com/',
         desc: '代码随想录，是一个关于算法与数据结构的博客',
@@ -897,24 +738,6 @@ export const NAV_DATA: NavData[] = [
         link: 'https://chat.openai.com/chat',
         desc: 'OpenAI 推出的聊天机器人',
       },
-      {
-        title: '问小白',
-        link: 'https://wenxiaobai.com',
-        desc: '接入 DeepSeek AI 的智能问答机器人',
-        icon: 'https://www.wenxiaobai.com/_next/image?url=%2FchatList%2Fcolorlogo.png&w=256&q=75',
-      },
-      {
-        title: 'DeepSeek',
-        link: 'https://deepseek.com',
-        desc: '国产 AI 人工智能搜索引擎',
-        icon: 'https://deepseek.com/favicon.ico',
-      },
-      {
-        title: '精灵学院',
-        link: 'https://pub.riolu.icu/?code=f5Rg1xfZ',
-        desc: '这是可以说的嘛',
-        icon: 'https://pub.riolu.icu/favicon.ico',
-      },
       // ---- 修正：将 AI SDK 放入 AI 时代的 items 数组中 ----
       {
         title: 'AI SDK',
@@ -947,12 +770,6 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://fcb-docs.aiuo.net/logo_small.png',
       },
       {
-        title: 'ProcessOn',
-        link: 'https://www.processon.com/',
-        desc: '在线思维导图、流程图、原型图、UML、ER图、网络拓扑图',
-        icon: 'https://www.processon.com/favicon.ico',
-      }, // ---- 修正：此处添加了逗号 ----
-      {
         icon: 'https://tool.lu/favicon.ico',
         title: '在线工具',
         desc: '开发人员的工具箱',
@@ -963,18 +780,6 @@ export const NAV_DATA: NavData[] = [
         title: 'Telegraph',
         desc: 'Telegram 的内容发布网站',
         link: 'https://telegra.ph',
-      },
-      {
-        icon: 'https://reurl.cc/favicon.ico',
-        title: 'Reurl',
-        desc: '短链接在线生成',
-        link: 'https://reurl.cc',
-      },
-      {
-        icon: 'https://subconverter.oss-ap-southeast-1.aliyuncs.com/favicon.ico',
-        title: 'SubConverter',
-        desc: '各种订阅链接生成',
-        link: 'https://subconverter.oss-ap-southeast-1.aliyuncs.com',
       },
       {
         icon: 'https://transform.tools/static/favicon.png',
