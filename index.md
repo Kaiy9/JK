@@ -133,14 +133,17 @@ import MFriends from  './pages/home/MFriends.vue'
 </style>
 
 <div class="spotify-grid">
-  <div class="spotify-item">
-    <iframe src="https://spotify.libk.top/embed/playlist/5RlAHB43BgBxAOKruTWkYm?utm_source=generator&theme=0" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+ <div class="spotify-item">
+    <iframe src="https://open.spotify.com/embed/playlist/315eYpxoyxuwLaz7Z3gVkH?si=9NGGFoBbRAGHzJfEhpVm9Q?utm_source=generator&theme=0" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
   <div class="spotify-item">
-    <iframe src="https://spotify.libk.top/embed/playlist/14xDEqPsOMWjY4hUJtDihj?utm_source=generator&theme=0" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe src="https://open.spotify.com/embed//playlist/0aLrUCCZzkvttLPYPakspl?utm_source=generator&theme=0" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
   <div class="spotify-item">
-    <iframe src="https://spotify.libk.top/embed/playlist/5yZvh95YQOeVdK4hEacbIU?utm_source=generator&theme=0" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe src="https://open.spotify.com/embed/playlist/0N3OglcyxEuSdOxMP4HFOw?utm_source=generator&theme=0" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  <div class="spotify-item">
+    <iframe src="https://open.spotify.com/embed/playlist/4JEprXzIV5EzOXNTxxILAC?utm_source=generator&theme=0" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
 </div>
 
