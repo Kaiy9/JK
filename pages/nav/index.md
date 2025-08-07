@@ -1,17 +1,22 @@
 ---
-description: 导航
+layout: doc
 layoutClass: m-nav-layout
-outline: [2, 3, 4]
+sidebar: false
+prev: false
+next: false
 ---
 
+<style src="/.vitepress/theme/style/nav.css"></style>
+
 <script setup>
-import MNav from './MNav.vue'
+import { NAV_DATA } from './data.ts'
 </script>
 
 # 网站导航
 
 :::  INFO
 
-🤔 整理本人生活工作中常用的一些站点
+ 整理一些生活工作中常用的一些网站
 
-<MNav/>
+
+<MNavLinks v-for="{title, items} in NAV_DATA" :title="title" :items="items"/>

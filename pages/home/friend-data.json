@@ -1,15 +1,10 @@
 [
+
   {
-    "title": "国家教育平台",
-    "desc": "教育部主办的国家级教育平台，汇聚全学段优质教学资源与课程内容，为全国师生及社会学习者提供权威专业的教育服务支持",
-    "link": "https://basic.smartedu.cn",
-    "icon": "https://b0.bdstatic.com/6c98f0f6f1911fd7383930865e37ea38.jpg"
-  },
-  {
-    "title": "央视网",
-    "desc": "中央广播电视总台旗下的综合视频网站平台，整合新闻资讯与多元化内容资源，是面向全球传播中国声音的权威媒体平台",
-    "link": "https://tv.cctv.com",
-    "icon": "https://iphoto.mac89.com/photo/180704/EPS-180704_297/KgMOPBDFBZ_small.jpg"
+    "title": "今日热榜",
+    "desc": "聚合每日各个网站的热榜",
+    "link": "https://tophub.today/",
+    "icon": "https://tophub.today/favicon.ico"
     
   },
   {
@@ -19,88 +14,17 @@
     "icon": "https://img.51pgzs.com/22/imgfile/20230826/26145200ndf8.png"
   },
   {
-    "title": "巡礼地图",
-    "desc": "专注动漫游戏取景地发现的共享地图平台，提供详细的世界地标位置信息，便于 ACG 爱好者精准打卡各类影视取景场景",
-    "link": "https://anitabi.cn",
-    "icon": "https://anitabi.cn/favicon.ico"
-  },
-  {
     "title": "AI Box",
     "desc": "汇集全球优秀 AI 应用工具的产品目录平台，涵盖创作设计办公等多个专业领域，助力用户高效发现实用人工智能服务",
     "link": "https://latentbox.com",
     "icon": "https://latentbox.com/favicon.ico"
   },
-  {
-    "title": "智能着色",
-    "desc": "基于文字描述的 AI 绘画创作工具平台，能够快速生成独特个性化着色页面，满足用户创意绘画设计与个性化定制的多样需求",
-    "link": "https://zcoloring.com",
-    "icon": "https://zcoloring.com/favicon.ico"
-  },
+ 
   {
     "title": "稿定社区",
     "desc": "依托 AI 技术的图片创意设计制作平台，支持一键同款智能功能，轻松实现图文内容的高效创作与专业级视觉设计制作",
     "link": "https://www.gaoding.art",
     "icon": "https://www.gaoding.art/favicon.ico"
-  },
-  {
-    "title": "Vidu 视频",
-    "desc": "AI 驱动的图片动态化视频处理工具，用户输入图文描述即可生成高质量创意视频内容，操作简便制作效率极高",
-    "link": "https://www.vidu.cn",
-    "icon": "https://www.vidu.cn/logo.svg"
-  },
-  {
-    "title": "魔方简历",
-    "desc": "智能简历生成制作服务平台，根据个人技能背景与求职方向需求，一键生成适配目标岗位的专业简历模板与内容",
-    "link": "https://magicv.art/zh",
-    "icon": "https://magicv.art/favicon.ico"
-  },
-  {
-    "title": "老鱼简历",
-    "desc": "在线简历制作设计服务工具，用户输入个人信息与岗位类型需求，快速生成高质量定制化的专业求职简历文档",
-    "link": "https://www.laoyujianli.com",
-    "icon": "https://pic.52112.com/2019/08/08/EPS-190808_149/rINjxTXcTy_small.jpg"
-  },
-  {
-    "title": "凹凸工坊",
-    "desc": "AI 智能转换电子文档为逼真手写体效果工具，支持多种个性化笔迹风格自定义设置，轻松生成各类手写作业文件和文档",
-    "link": "https://www.autohanding.com",
-    "icon": "https://www.autohanding.com/img/logo.a5f914db.png"
-  },
-  {
-    "title": "ChatExcel",
-    "desc": "智能表格处理分析服务平台，用户上传数据后通过自然语言对话交互完成 Excel 操作与数据分析任务，操作简单高效",
-    "link": "https://www.chatexcel.com",
-    "icon": "https://pic1.zhimg.com/100/v2-ed450048c00dd4515c1d19103925d00c_r.jpg"
-  },
-  {
-    "title": "ProcessOn",
-    "desc": "AI 辅助绘图设计制作工具，根据用户具体需求一键生成各类专业流程图表，支持团队在线协作功能，显著提升可视化效率",
-    "link": "https://www.processon.com/diagraming/680f3ab01780bd6627ec3ee1",
-    "icon": "https://www.processon.com/favicon.ico"
-  },
-  {
-    "title": "GraphMaker",
-    "desc": "AI 辅助绘图设计制作工具，根据用户具体需求一键生成各类专业流程图表，支持团队在线协作功能，显著提升可视化效率",
-    "link": "https://aigraphmaker.net",
-    "icon": "https://aigraphmaker.net/sites/default/files/logo.svg"
-  },
-  {
-    "title": "Drawio",
-    "desc": "免费开源的跨平台图表绘制设计工具，支持团队在线协作绘制流程图 UML 图等，兼容多种格式文件与云存储服务",
-    "link": "https://app.diagrams.net",
-    "icon": "https://img.foxmac.com/2021/03/draw.io.png"
-  },
-  {
-    "title": "Drawdb",
-    "desc": "开源在线数据库设计建模专业工具，提供直观可视化建模与 SQL 代码自动生成功能，支持多类型数据库系统的定制开发",
-    "link": "https://www.drawdb.app/editor",
-    "icon": "https://www.drawdb.app/favicon.ico"
-  },
-  {
-    "title": "Wallspic",
-    "desc": "海量 4K8K 超清壁纸资源收藏库，每日更新全球顶级摄影师优质作品，支持按风格色彩主题分类进行精准搜索筛选",
-    "link": "https://wallspic.com/cn/album",
-    "icon": "https://www.1zj.com/uploadfile/2019/1011/20191011020039136.jpg"
   },
   {
     "title": "Wallhaven",
@@ -109,10 +33,11 @@
     "icon": "https://www.1zj.com/uploadfile/2019/1011/20191011020039726.jpg"
   },  
   {
-    "title": "Removebg",
-    "desc": "AI 一键自动去除图片背景智能处理工具，精准识别主体边缘轮廓细节，支持人像商品等复杂场景的专业无痕抠图",
-    "link": "https://www.remove.bg/zh",
-    "icon": "https://www.remove.bg/favicon.ico"
+    "title": "央视网",
+    "desc": "中央广播电视总台旗下的综合视频网站平台，整合新闻资讯与多元化内容资源，是面向全球传播中国声音的权威媒体平台",
+    "link": "https://tv.cctv.com",
+    "icon": "https://iphoto.mac89.com/photo/180704/EPS-180704_297/KgMOPBDFBZ_small.jpg"
+    
   },
   {
     "title": "MagicEraser",
