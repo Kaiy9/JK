@@ -13,14 +13,14 @@ hero:
     alt: Jie Liu
   actions:
     - text: 日常笔记
-      link: /教程/我的随笔
+      link: /blog
     - text: 开源
       link: /nav
       theme: alt
     - text: 网站导航
-      link: /节流/福利活动
+      link: /nav
     - text: 节流
-      link: /节流/福利活动
+      link: /节流/羊毛线报
       theme: alt
 features:
   - icon: 📖
@@ -41,7 +41,7 @@ features:
   - icon: 💡
     title: 羊毛线报
     details: 罗列免费羊毛，节流钱包收入
-    link: /线报/福利活动
+    link: /节流/羊毛线报
     linkText: 前往搞钱
   - icon: 🚀
     title: 上网推荐

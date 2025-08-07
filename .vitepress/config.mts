@@ -26,13 +26,17 @@ export default defineConfig({
    outDir: './dist',// 将构建输出到 .vitepress 文件夹本身
 
    rewrites: {
-  // 👉 处理 posts 目录中有子文件夹的情况，例如：posts/教程/详细的/羊毛线报.md → /教程/详细的/羊毛线报.md
+   // 👉 处理 posts 目录中有子文件夹的情况，例如：posts/教程/详细的/羊毛线报.md → /教程/详细的/羊毛线报.md
   'posts/:category/:subfolder/:title.md': ':category/:subfolder/:title.md',
   // 👉 处理 posts 目录中直接放在分类下的文章，例如： posts/教程/副业收入.md → /教程/副业收入.md
   'posts/:category/:title.md': ':category/:title.md',
   // 👉 处理 pages 目录中的单独页面，例如： pages/关于.md → /关于.md
    'pages/:category/:subfolder/:title.md': ':category/:subfolder/:title.md',
   'pages/:category/:title.md': ':category/:title.md',
+  // 比如多加一层子文件夹
+  'posts/:category/:subfolder/:subsubfolder/:title.md': ':category/:subfolder/:subsubfolder/:title.md',
+   // 👉 处理 posts 目录中有四层子文件夹的情况，例如：posts/教程/详细的/前端/vue/项目.md
+  'posts/:category/:subfolder/:subsubfolder/:subsubsubfolder/:title.md': ':category/:subfolder/:subsubfolder/:subsubsubfolder/:title.md',
 },
 
   // Markdown 配置
