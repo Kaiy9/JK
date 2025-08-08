@@ -1,0 +1,30 @@
+// style.scss
+
+// 这是一个页面级的布局类，它来自于 index.md 中的 layoutClass: m-nav-layout
+.m-nav-layout {
+
+  // --- 页面宏观布局调整 ---
+
+  // 隐藏右侧大纲
+  .VPDocAside {
+    display: none;
+  }
+
+  // 页面主标题 H2 的样式
+  .vp-doc h2 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--vp-c-divider);
+  }
+
+  // --- 针对 m-nav-links 组件的覆盖样式 ---
+  // 这个规则只会在此页面生效
+  .m-nav-links {
+    /* * 核心修改：强制网格布局为三列。
+     * !important 用于确保这条规则的优先级最高，
+     * 以覆盖掉 mNavLinks.vue 组件内部的响应式媒体查询样式。
+     */
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
