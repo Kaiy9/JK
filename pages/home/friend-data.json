@@ -8,6 +8,18 @@
     
   },
   {
+        "icon": "https://www.xiaohongshu.com/favicon.ico",
+        "title": "小红书",
+        "desc": "查资料挺方便的",
+        "link": "https://www.xiaohongshu.com/"
+      },
+      {
+        "icon": "https://weibo.com//favicon.ico",
+        "title": "微博",
+        "desc": "微博",
+        "link": "https://weibo.com/"
+      },
+  {
     "title": "Google 地球",
     "desc": "Google 开发的虚拟地球仪探索工具，叠加高清卫星影像与丰富地理数据，支持多维度交互方式探索地球全貌的专业平台",
     "link": "https://earth.google.com",
@@ -19,7 +31,90 @@
     "link": "https://latentbox.com",
     "icon": "https://latentbox.com/favicon.ico"
   },
- 
+   {
+    "title": "微信文件传输",
+    "icon": "https://logo.clearbit.com/filehelper.weixin.qq.com",
+    "desc": "微信文件传输",
+    "link": "https://filehelper.weixin.qq.com/"
+    },
+     {
+      "title": "NO视频",
+      "icon": "https://logo.clearbit.com/www.novipnoad.net",
+      "desc": "免费在线视频观看平台",
+      "link": "https://www.novipnoad.net/"
+    },
+    {
+      "title": "低端影视",
+      "icon": "https://logo.clearbit.com/ddys.pro",
+      "desc": "高清影视资源在线观看",
+      "link": "https://ddys.pro/"
+    },
+      {
+        "icon": "https://momoyu.cc/icon-192.png",
+        "title": "摸鱼热榜",
+        "desc": "摸鱼热榜",
+        "link": "https://momoyu.cc"
+      },
+       {
+      "title": "蓝奏云",
+      "icon": "https://logo.clearbit.com/pc.woozooo.com",
+      "desc": "免费云存储和文件分享平台",
+      "link": "https://pc.woozooo.com/"
+    },
+    {
+      "title": "PikPak",
+      "icon": "https://logo.clearbit.com/mypikpak.com",
+      "desc": "智能云存储和文件管理服务",
+      "link": "https://mypikpak.com/"
+    },
+    {
+      "title": "夸克网盘",
+      "icon": "https://logo.clearbit.com/pan.quark.cn",
+      "desc": "阿里旗下的云存储服务",
+      "link": "https://pan.quark.cn/"
+    },
+    {
+      "title": "阿里云盘",
+      "icon": "https://logo.clearbit.com/www.aliyundrive.com",
+      "desc": "阿里巴巴提供的云存储服务",
+      "link": "https://www.aliyundrive.com/"
+    },
+       {
+      "title": "程序员做饭指南",
+      "icon": "https://logo.clearbit.com/cook.aiursoft.cn",
+      "desc": "程序员的生活技能指南",
+      "link": "https://cook.aiursoft.cn/"
+    },
+   {
+      "icon": "https://getzlib.com/favicon.ico",
+      "title": "获取 Z-Library",
+      "desc": "查找最新的 Z-Library 可用链接",
+      "link": "https://getzlib.com/zh"
+   },
+    {
+      "title": "吾爱破解",
+      "icon": "https://logo.clearbit.com/www.52pojie.cn",
+      "desc": "软件逆向分析技术论坛",
+      "link": "https://www.52pojie.cn/"
+    },
+    {
+      "title": "恩山论坛",
+      "icon": "https://logo.clearbit.com/www.right.com.cn",
+      "desc": "路由器固件和网络技术论坛",
+      "link": "https://www.right.com.cn/forum/"
+    },
+     {
+        "icon": "https://chat.openai.com/favicon.ico",
+        "title": "ChatGPT",
+        "desc": "万恶之源",
+        "link": "https://chat.openai.com"
+      },
+      {
+        "icon": "https://manus.im/favicon.ico",
+        "title": "manus",
+        "desc": "manus 的自动机器人",
+        "link": "https://manus.im/login?code=Q8ZFSCLPVCFULHA&type=signUp"
+      },
   {
     "title": "稿定社区",
     "desc": "依托 AI 技术的图片创意设计制作平台，支持一键同款智能功能，轻松实现图文内容的高效创作与专业级视觉设计制作",

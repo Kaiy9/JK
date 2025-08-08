@@ -19,9 +19,9 @@ export const NAV_DATA: NavData[] = [
       },
       {
        title: "Google 地球",
-       desc: "Google 开发的虚拟地球仪探索工具，叠加高清卫星影像与丰富地理数据，支持多维度交互方式探索地球全貌的专业平台",
+       desc: "Google 开发的虚拟地球仪探索工具",
        link: "https://earth.google.com",
-      icon: "https://img.51pgzs.com/22/imgfile/20230826/26145200ndf8.png"
+       icon: "https://img.51pgzs.com/22/imgfile/20230826/26145200ndf8.png"
      },
       {
       title: "微信文件传输",
@@ -29,7 +29,7 @@ export const NAV_DATA: NavData[] = [
       desc: "微信文件传输",
       link: "https://filehelper.weixin.qq.com/",
     },
-      {
+    {
         icon: 'https://momoyu.cc/icon-192.png',
         title: '摸鱼热榜',
         desc: '摸鱼热榜',
@@ -71,7 +71,6 @@ export const NAV_DATA: NavData[] = [
         desc: '国内外AI工具集合网站大全',
         link: 'https://ai-bot.cn/',
       },
-      // ---- 修正开始：下面的项目之前被错误地放在了数组外面 ----
       {
         icon: '/icons/pixiv.png',
         title: 'Pixiv',
@@ -90,13 +89,6 @@ export const NAV_DATA: NavData[] = [
         desc: '耐飞',
         link: 'https://netflix.com',
       },
-      {
-        icon: 'https://twitter.com/favicon.ico',
-        title: 'Twitter',
-        desc: '草拟吗马斯克',
-        link: 'https://twitter.com',
-      },
-      // ---- 修正结束 ----
     ],
   },
   {
@@ -151,12 +143,6 @@ export const NAV_DATA: NavData[] = [
         title: 'Stable Diffusion',
         desc: '开源的AI图像生成模型，支持文本到图像转换',
         link: 'https://stablediffusionweb.com',
-      }, // ---- 修正：此处添加了逗号 ----
-      {
-        icon: 'https://gpt.ahuaaa.cn/favicon.ico',
-        title: 'ChatGPT（内部）',
-        link: 'https://gpt.ahuaaa.cn/',
-        desc: '需要内部授权码',
       },
       {
         icon: 'https://img.js.design/assets/webImg/favicon.ico',
@@ -208,16 +194,16 @@ export const NAV_DATA: NavData[] = [
         link: 'https://instagram.com',
       },
       {
-        icon: 'https://x.com/favicon.ico',
+        icon: 'https://www.xiaohongshu.com/favicon.ico',
         title: '小红书',
         desc: '查资料挺方便的',
-        link: 'https://x.com',
+        link: 'https://www.xiaohongshu.com/',
       },
       {
-        icon: 'https://x.com/favicon.ico',
+        icon: 'https://weibo.com//favicon.ico',
         title: '微博',
         desc: '微博',
-        link: 'https://x.com',
+        link: 'https://weibo.com/',
       },
       {
         icon: 'https://x.com/favicon.ico',
@@ -230,12 +216,6 @@ export const NAV_DATA: NavData[] = [
         title: 'Reddit',
         desc: '娱乐、社交及新闻网站',
         link: 'https://reddit.com',
-      },
-      {
-        icon: 'https://telegram.org/favicon.ico',
-        title: 'Telegram',
-        desc: '跨平台的即时通信软件',
-        link: 'https://telegram.org',
       },
     ],
   },
@@ -541,12 +521,6 @@ export const NAV_DATA: NavData[] = [
       link: "https://pc.woozooo.com/",
     },
     {
-      title: "PikPak",
-      icon: "https://logo.clearbit.com/mypikpak.com",
-      desc: "智能云存储和文件管理服务",
-      link: "https://mypikpak.com/",
-    },
-    {
       title: "夸克网盘",
       icon: "https://logo.clearbit.com/pan.quark.cn",
       desc: "阿里旗下的云存储服务",
@@ -569,18 +543,12 @@ export const NAV_DATA: NavData[] = [
         desc: '面向全球中文开发者的技术内容分享与交流平台',
         link: 'https://juejin.cn',
       },
-    {
-      title: "安知鱼",
-      icon: "https://logo.clearbit.com/anzhiy.cn",
-      desc: "个人技术博客和分享平台",
-      link: "https://anzhiy.cn/",
-    },
-    {
-      title: "张洪Heo",
-      icon: "https://logo.clearbit.com/blog.zhheo.com",
-      desc: "前端开发者的技术博客",
-      link: "https://blog.zhheo.com/",
-    },
+       {
+        icon: 'https://telegram.org/favicon.ico',
+        title: 'Telegram',
+        desc: '跨平台的即时通信软件',
+        link: 'https://telegram.org',
+      },
     {
       title: "终身学习",
       icon: "https://logo.clearbit.com/lifelonglearn.ing",
@@ -592,12 +560,6 @@ export const NAV_DATA: NavData[] = [
       icon: "https://logo.clearbit.com/missing-semester-cn.github.io",
       desc: "MIT计算机科学教育课程中文版",
       link: "https://missing-semester-cn.github.io/",
-    },
-    {
-      title: "無名小栈",
-      icon: "https://logo.clearbit.com/blog.imsyy.top",
-      desc: "个人技术博客和开发分享",
-      link: "https://blog.imsyy.top/",
     },
     {
       title: "小孙同学",
@@ -618,22 +580,10 @@ export const NAV_DATA: NavData[] = [
       link: "https://keep-docs.xpoet.cn/",
     },
     {
-      title: "Hexo",
-      icon: "https://logo.clearbit.com/hexo.io",
-      desc: "快速、简洁且高效的博客框架",
-      link: "https://hexo.io/zh-cn/docs/",
-    },
-    {
       title: "PicGo",
       icon: "https://logo.clearbit.com/picgo.github.io",
       desc: "图床上传工具，支持多种云存储",
       link: "https://picgo.github.io/PicGo-Doc/",
-    },
-    {
-      title: "v2rayA",
-      icon: "https://logo.clearbit.com/v2raya.org",
-      desc: "V2Ray的Web管理界面",
-      link: "https://v2raya.org/",
     },
     {
       title: "LX Music",
@@ -694,12 +644,6 @@ export const NAV_DATA: NavData[] = [
       icon: "https://logo.clearbit.com/doc.xugaoyi.com",
       desc: "VuePress主题和文档模板",
       link: "https://doc.xugaoyi.com/",
-    },
-      {
-      title: "V2EX",
-      icon: "https://logo.clearbit.com/www.v2ex.com",
-      desc: "创意工作者社区",
-      link: "https://www.v2ex.com/",
     },
     {
       title: "Reddit",
@@ -791,12 +735,6 @@ export const NAV_DATA: NavData[] = [
       desc: "编程技术博客和思考分享",
       link: "https://cirubla.github.io/",
     },
-    {
-      title: "CMLiussss Blog",
-      icon: "https://logo.clearbit.com/blog.cmliussss.com",
-      desc: "个人技术博客和开发经验",
-      link: "https://blog.cmliussss.com/",
-    },
     ],
   },
   {
@@ -831,18 +769,6 @@ export const NAV_DATA: NavData[] = [
         title: 'tg问题',
         desc: '有Tg使用的问题或许可以在这里找到方案',
         link: 'https://tgnav.github.io/tgwiki',
-      },
-      {
-        icon: 'https://img.alicdn.com/imgextra/i4/O1CN01Z5paLz1O0zuCC7osS_!!6000000001644-55-tps-83-82.svg',
-        title: 'iconfont',
-        desc: '国内功能很强大且图标内容很丰富的矢量',
-        link: 'https://www.iconfont.cn',
-      },
-      {
-        icon: 'https://emoji.muan.co/appicon.png',
-        title: 'Emoji searcher',
-        desc: 'Emoji 表情大全',
-        link: '',
       },
       {
         icon: 'https://squoosh.app/c/icon-demo-logo-326ed9b6.png',
@@ -967,4 +893,3 @@ export const NAV_DATA: NavData[] = [
     ],
   },
 ]
-// ---- 修正：删除了文件末尾多余的 '}' ----
