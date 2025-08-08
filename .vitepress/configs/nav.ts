@@ -29,17 +29,16 @@ export const nav: DefaultTheme.Config['nav'] = [
     activeMatch: '^/教程',
   },
   {
-    text: '节流羊毛线报',
+    text: '羊毛线报福利',
     items: [
-      { text: '节流', link: '/', activeMatch: '^/nav' },
-      {
-        text: '羊毛福利',
+      { text: '节流', 
+        // link: '/', activeMatch: '^/nav' },
         items: [
           { text: '羊毛线报', link: '/节流/羊毛线报' },
           { text: '福利活动', link: '/节流/福利活动' },
           { text: '教育优惠', link: '/节流/教育优惠' },
-          { text: '免费机场', link: '/节流/免费机场' },
-          { text: '账号共享', link: '/节流/账号共享' },
+          { text: '', link: '/节流/免费机场' },
+          { text: '', link: '/资源/苹果账号' },
         ],
       },
     ],
@@ -75,7 +74,7 @@ export const nav: DefaultTheme.Config['nav'] = [
           { text: '', link: '/工具/好物分享' },
           { text: '我的装备', link: '/工具/我的装备' },
           { text: '开发工具', link: '/工具/开发工具' },
-          { text: '', link: '/工具/免费机场' },
+          { text: '', link: '/工具/代理工具' },
           { text: '', link: '/工具/账号共享' },
         ],
       },
