@@ -1,0 +1,4 @@
+ ---
+title: "{{title}}"
+aside: false
+---
