@@ -86,7 +86,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     link: '/',
   },
   {
-    text: '',
-    link: '/',
+    text: '1',
+    link: '/thoughts/',
   },
 ]

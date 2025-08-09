@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     404: typeof import('./.vitepress/theme/components/404.vue')['default']
+    '原来PostList': typeof import('./.vitepress/theme/components/原来PostList.vue')['default']
     ACard: typeof import('@arco-design/web-vue')['Card']
     ACol: typeof import('@arco-design/web-vue')['Col']
     AList: typeof import('@arco-design/web-vue')['List']
@@ -24,6 +25,8 @@ declare module 'vue' {
     MNavLinks: typeof import('./.vitepress/theme/components/MNavLinks.vue')['default']
     MyLayout: typeof import('./.vitepress/theme/components/MyLayout.vue')['default']
     PostCopyright: typeof import('./.vitepress/theme/components/postCopyright.vue')['default']
+    PostList: typeof import('./.vitepress/theme/components/PostList.vue')['default']
+    PostTitle: typeof import('./.vitepress/theme/components/PostTitle.vue')['default']
     Tag: typeof import('./.vitepress/theme/components/tag.vue')['default']
     WordCloud: typeof import('./.vitepress/theme/components/wordCloud.vue')['default']
   }

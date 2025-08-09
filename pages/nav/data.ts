@@ -436,6 +436,12 @@ export const NAV_DATA: NavData[] = [
       desc: '智能简历生成制作服务平台，根据个人技能背景与求职方向需求，一键生成适配目标岗位的专业简历模板与内容',
       link: 'https://magicv.art/zh',
     },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.polebrief.com/",
+        title: "极简简历",
+        link: "https://www.polebrief.com/",
+        desc: "简历在线制作"
+      },
     {
       title: '老鱼简历',
       icon: 'https://pic.52112.com/2019/08/08/EPS-190808_149/rINjxTXcTy_small.jpg',
@@ -573,6 +579,42 @@ export const NAV_DATA: NavData[] = [
       desc: "技术博客和开发经验分享",
       link: "https://crazywong.com/",
     },
+     {
+        icon: "https://www.google.com/s2/favicons?domain=http://free-stock.video/",
+        title: "Free Stock Video",
+        link: "http://free-stock.video/",
+        desc: "免费4K视频素材"
+      },
+         {
+        icon: "https://www.google.com/s2/favicons?domain=https://github.com/tindy2013/subconverter",
+        title: "订阅转换源码",
+        link: "https://github.com/tindy2013/subconverter",
+        desc: "subconverter"
+      },
+     {
+        icon: "https://www.google.com/s2/favicons?domain=https://calltoinspiration.com/",
+        title: "calltoinspiration",
+        link: "https://calltoinspiration.com/",
+        desc: "网页设计灵感参考"
+      },  
+        {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.superso.top/Adobe/",
+        title: "Adobe CC 2023",
+        link: "https://www.superso.top/Adobe/",
+        desc: "Adobe全家桶破解软件下载"
+      },
+     {
+        icon: "https://www.google.com/s2/favicons?domain=https://webact.185.hk/sharedkey.php",
+        title: "爱好网密钥",
+        link: "https://webact.185.hk/sharedkey.php",
+        desc: "免费Windows激活码分享"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=http://www.tbtool.cn/",
+        title: "图吧工具箱",
+        link: "http://www.tbtool.cn/",
+        desc: "硬件检测工具箱"
+      },
     {
       title: "Keep",
       icon: "https://logo.clearbit.com/keep-docs.xpoet.cn",
@@ -738,6 +780,420 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: "苹果（签名/IPA/越狱/TF内测/限免/其他）",
+    items: [
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://ios222.com/",
+        title: "牛蛙助手",
+        link: "https://ios222.com/",
+        desc: "手机端签名软件"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://esign.yyyue.xyz/",
+        title: "轻松签",
+        link: "https://esign.yyyue.xyz/",
+        desc: "免费手机IPA签名"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://udid.nuosike.cn/sign/",
+        title: "全能签",
+        link: "https://udid.nuosike.cn/sign/",
+        desc: "需证书"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://amiao.app/",
+        title: "喵喵签",
+        link: "https://amiao.app/",
+        desc: "需证书"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://altstore.io/",
+        title: "AltStore",
+        link: "https://altstore.io/",
+        desc: "iOS第三方商店"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://gbox.run/",
+        title: "GBox",
+        link: "https://gbox.run/",
+        desc: "免费iOS签名测试"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.signhome.net/",
+        title: "超级签名",
+        link: "https://www.signhome.net/",
+        desc: "电脑签名"
+      },
+        {
+        icon: "https://www.google.com/s2/favicons?domain=https://roms.miuier.com/",
+        title: "小米ROM仓库",
+        link: "https://roms.miuier.com/",
+        desc: "米柚发烧友整理"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://yun.daxiaamu.com/",
+        title: "一加手机官方ROM下载",
+        link: "https://yun.daxiaamu.com/",
+        desc: "全量包/线刷包/救砖包"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://sj.qq.com/",
+        title: "应用宝",
+        link: "https://sj.qq.com/",
+        desc: "安卓应用市场"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://f-droid.org/zh_Hans/",
+        title: "F-Droid",
+        link: "https://f-droid.org/zh_Hans/",
+        desc: "开源软件目录"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.fenxm.com/",
+        title: "分享迷",
+        link: "https://www.fenxm.com/",
+        desc: "安卓软件集"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.coolapk.com/apk",
+        title: "酷安",
+        link: "https://www.coolapk.com/apk",
+        desc: "App与社区"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.wandoujia.com/",
+        title: "豌豆荚",
+        link: "https://www.wandoujia.com/",
+        desc: "安卓应用与游戏下载"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://apkpure.com/cn/app",
+        title: "APKPure",
+        link: "https://apkpure.com/cn/app",
+        desc: "谷歌商店镜像"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.shanzhuqian.com/",
+        title: "山猪签",
+        link: "https://www.shanzhuqian.com/",
+        desc: "需证书"
+      }
+    ]
+  },
+  {
+    title: "薅羊毛（线报/卡券/接码/返佣/模拟器）",
+    items: [
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.hxm5.com/",
+        title: "线报引擎",
+        link: "https://www.hxm5.com/",
+        desc: "实时抓取可搜索"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=http://new.xianbao.fun/",
+        title: "线报酷",
+        link: "http://new.xianbao.fun/",
+        desc: "实时羊毛线报"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://v1.xianbao.net/",
+        title: "新赚吧",
+        link: "https://v1.xianbao.net/",
+        desc: "线报社区"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=http://www.zuanke8.com/",
+        title: "赚客吧",
+        link: "http://www.zuanke8.com/",
+        desc: "线报论坛"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.iqnew.com/",
+        title: "爱Q生活网",
+        link: "https://www.iqnew.com/",
+        desc: "QQ活动/新闻/技术"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.kashenji.com/youhui/",
+        title: "卡活动",
+        link: "https://www.kashenji.com/youhui/",
+        desc: "银行信用卡优惠活动"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=http://wx.0818tuan.com/list-1-0.html",
+        title: "0818Tuan",
+        link: "http://wx.0818tuan.com/list-1-0.html",
+        desc: "线报采集网"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://cq.tobacco.gov.cn/c/10",
+        title: "重庆烟草网",
+        link: "https://cq.tobacco.gov.cn/c/10",
+        desc: "行政许可公示"
+      }
+    ]
+  },
+  {
+    title: "特殊（消息推送/信息生成/网页监测/机器人）",
+    items: [
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://msgpusher.com/",
+        title: "Message Pusher",
+        link: "https://msgpusher.com/",
+        desc: "自建消息推送服务"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://github.com/Finb/Bark",
+        title: "Bark",
+        link: "https://github.com/Finb/Bark",
+        desc: "iOS推送"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://pushplus.plus/",
+        title: "pushplus推送加",
+        link: "https://pushplus.plus/",
+        desc: "微信/企业微信/钉钉等"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://wxpusher.zjiecode.com/docs/#/",
+        title: "WxPusher",
+        link: "https://wxpusher.zjiecode.com/docs/#/",
+        desc: "微信模板推送"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://sct.ftqq.com/",
+        title: "Server酱",
+        link: "https://sct.ftqq.com/",
+        desc: "免费每天5次"
+      }
+    ]
+  },
+    {
+    title: "短视频（国内/国外）",
+    items: [
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://dy.kukutool.com/",
+        title: "酷豆去水印",
+        link: "https://dy.kukutool.com/",
+        desc: "短视频去水印"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=http://zhouql.vip/bilibili/",
+        title: "B站下载工具",
+        link: "http://zhouql.vip/bilibili/",
+        desc: "哔哩哔哩下载"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.videofk.com/zh-CN/online-video-download",
+        title: "VideoFk",
+        link: "https://www.videofk.com/zh-CN/online-video-download",
+        desc: "国内外短视频解析下载"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://tutjiexi.com/",
+        title: "兔兔去水印",
+        link: "https://tutjiexi.com/",
+        desc: "抖音/快手/小红书等"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://github.com/lecepin/WeChatVideoDownloader",
+        title: "微信视频号下载器",
+        link: "https://github.com/lecepin/WeChatVideoDownloader",
+        desc: "PC端下载"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://vtool.pro/",
+        title: "vtool解析",
+        link: "https://vtool.pro/",
+        desc: "抖音/快手/小红书/B站等"
+      }
+    ]
+  },
+  {
+    title: "书籍（在线读/书源/阅读器）",
+    items: [
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.manhuagui.com/",
+        title: "漫画柜",
+        link: "https://www.manhuagui.com/",
+        desc: "无广告在线看漫画"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.ttkan.co/",
+        title: "天天看小说",
+        link: "https://www.ttkan.co/",
+        desc: "无广告在线看小说"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://greasyfork.org/zh-CN/scripts/25068-downloadallcontent",
+        title: "怠惰小说下载器",
+        link: "https://greasyfork.org/zh-CN/scripts/25068-downloadallcontent",
+        desc: "网页小说文本抓取脚本"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://history-maps.com/zh",
+        title: "HistoryMaps",
+        link: "https://history-maps.com/zh",
+        desc: "地图与时间线学历史"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://book.sciencereading.cn/",
+        title: "科学文库",
+        link: "https://book.sciencereading.cn/",
+        desc: "理工医经管等文库"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://toepub.com/",
+        title: "ToePub",
+        link: "https://toepub.com/",
+        desc: "文档转电子书EPUB"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.69shu.com/",
+        title: "69书吧",
+        link: "https://www.69shu.com/",
+        desc: "在线小说"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://yiyeting.com/",
+        title: "听书网",
+        link: "https://yiyeting.com/",
+        desc: "有声小说在线听"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://wenyuan.aliyun.com/",
+        title: "汉典重光",
+        link: "https://wenyuan.aliyun.com/",
+        desc: "古籍整理平台"
+      }
+    ]
+  },
+  {
+    title: "生活（日常/知乎盐选）",
+    items: [
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.nosetime.com/",
+        title: "香水时代",
+        link: "https://www.nosetime.com/",
+        desc: "专业香评社区"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://huashuimoyu.com/",
+        title: "划水摸鱼",
+        link: "https://huashuimoyu.com/",
+        desc: "各大平台热搜榜汇总"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://piyao.kepuchina.cn/",
+        title: "科普中国-科学辟谣",
+        link: "https://piyao.kepuchina.cn/",
+        desc: "官方科学辟谣平台"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://bilicover.magecorn.com/",
+        title: "bilibili封面",
+        link: "https://bilicover.magecorn.com/",
+        desc: "B站视频封面提取"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.bilibiliq.com/",
+        title: "bilibili封面提取",
+        link: "https://www.bilibiliq.com/",
+        desc: "视频/直播/专栏/UP主等"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://cdielts.gelielts.com/",
+        title: "雅思机考模拟",
+        link: "https://cdielts.gelielts.com/",
+        desc: "官方免费在线机考"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://akarin.dev/WechatMomentScreenshot/",
+        title: "朋友圈转发截图生成工具",
+        link: "https://akarin.dev/WechatMomentScreenshot/",
+        desc: "集赞截图生成"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=http://www.ixinqing.com/",
+        title: "心晴",
+        link: "http://www.ixinqing.com/",
+        desc: "心理学入门与自我成长"
+      },
+       {
+        icon: "https://www.google.com/s2/favicons?domain=https://lqzh.me/Shmily/",
+        title: "Shmily",
+        link: "https://lqzh.me/Shmily/",
+        desc: "聊天记录导出"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=http://wxbackup.imxfd.com/",
+        title: "WX Backup",
+        link: "http://wxbackup.imxfd.com/",
+        desc: "微信聊天记录导出"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://github.com/LC044/WeChatMsg",
+        title: "WeChatMsg",
+        link: "https://github.com/LC044/WeChatMsg",
+        desc: "提取微信聊天记录"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://muzihuaner.github.io/E-Cert/",
+        title: "E-Cert",
+        link: "https://muzihuaner.github.io/E-Cert/",
+        desc: "电子证书生成器"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://iptvindex.com/",
+        title: "IPTVindex",
+        link: "https://iptvindex.com/",
+        desc: "电视源/影视源索引"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://raindrop.io/",
+        title: "Raindrop",
+        link: "https://raindrop.io/",
+        desc: "跨平台书签整理工具"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://archive.ph/",
+        title: "Webpage archive",
+        link: "https://archive.ph/",
+        desc: "互联网网页存档"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://technical.city/zh",
+        title: "Technical City",
+        link: "https://technical.city/zh",
+        desc: "处理器/显卡性能评级"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://gpu-benchmark.com/zh/",
+        title: "GPU Benchmark",
+        link: "https://gpu-benchmark.com/zh/",
+        desc: "处理器显卡参数对比"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.yougengwa.com/",
+        title: "有梗蛙",
+        link: "https://www.yougengwa.com/",
+        desc: "热门梗词来源"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://itakeo.com/wx/",
+        title: "微信集赞",
+        link: "https://itakeo.com/wx/",
+        desc: "模拟朋友圈分享图片等"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=http://www.53bk.com/",
+        title: "多媒体数字报纸",
+        link: "http://www.53bk.com/",
+        desc: "全国报纸电子版"
+      }
+    ]
+  },
+  {
     title: '常用工具',
     items: [
       {
@@ -824,6 +1280,36 @@ export const NAV_DATA: NavData[] = [
         desc: '一份通俗易懂的前端面试指南',
         icon: 'https://avatars.githubusercontent.com/u/9276376?v=4',
       },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.lzizy9.com/",
+        title: "量子影视",
+        link: "https://www.lzizy9.com/",
+        desc: "在线免费看电影/电视剧/综艺"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.chumenys.com/",
+        title: "楚门影院",
+        link: "https://www.chumenys.com/",
+        desc: "海外华人影院"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://rysp.tv/",
+        title: "如意视频",
+        link: "https://rysp.tv/",
+        desc: "海外华人在线影院"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://www.7xi.tv/",
+        title: "7喜影院",
+        link: "https://www.7xi.tv/",
+        desc: "海外华人在线影院"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://hoho.tv/",
+        title: "HOHO TV",
+        link: "https://hoho.tv/",
+        desc: "海外华人在线观影平台"
+      },
     ],
   },
   {
@@ -848,6 +1334,18 @@ export const NAV_DATA: NavData[] = [
         desc: 'AI 智能消除照片中多余物体路人工具，自动填充自然背景效果处理，保持画面整体美观且不留任何人工处理痕迹',
         link: 'https://magiceraser.pro/zh',
       },
+       {
+        icon: "https://www.google.com/s2/favicons?domain=https://yyrcd.com/n2s/",
+        title: "音乐迁移",
+        link: "https://yyrcd.com/n2s/",
+        desc: "网易云/QQ音乐迁移到App"
+      },
+      {
+        icon: "https://www.google.com/s2/favicons?domain=https://vocalremover.org/",
+        title: "Vocal Remover and Isolation",
+        link: "https://vocalremover.org/",
+        desc: "人声伴奏分离"
+      }
     ],
   },
   // ---- 修正：为 “开源工具” 创建了一个新的分类对象 ----

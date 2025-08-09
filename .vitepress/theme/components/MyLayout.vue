@@ -8,6 +8,8 @@ import NotFound from "./404.vue";
 // import Comment from "./comment.vue";
 import PostCopyright from "./postCopyright.vue";
 import BackToTop from "./BackToTop.vue";
+import PostTitle from "./PostTitle.vue";
+
  // import tag from "./tag.vue";
 // import wordCloud from "./wordCloud.vue";
  
@@ -45,6 +47,10 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
     <!-- 为较宽的屏幕的导航栏添加阅读增强菜单 -->
     <template #nav-bar-content-after>
       <NolebaseEnhancedReadabilitiesMenu />
+    </template>
+        <!-- 文章标题区域 -->
+    <template #doc-before>
+      <PostTitle />
     </template>
     <!-- 为较窄的屏幕（通常是小于 iPad Mini）添加阅读增强菜单 -->
     <template #nav-screen-content-after>

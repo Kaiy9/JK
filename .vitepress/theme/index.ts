@@ -20,6 +20,7 @@ import mediumZoom from 'medium-zoom'
 import { onMounted, watch, nextTick, h } from 'vue'
 import tag from './components/tag.vue'
 import wordCloud from './components/wordCloud.vue'
+import PostList from './components/PostList.vue'
 // 不用导入也可以  import postCopyright from './components/postCopyright.vue'
 // 不用导入也可以 import Comment from './components/comment.vue'
 // import BackToTop from "./components/BackToTop.vue";
@@ -45,6 +46,7 @@ export default {
     app.component('NolebaseEnhancedReadabilitiesMenu', NolebaseEnhancedReadabilitiesMenu)
     // app.component('TaBackToTop', BackToTop)
     app.component('Tag', tag)
+    app.component('PostList', PostList)
     app.component('WordCloud', wordCloud)
     app.component('NolebaseEnhancedReadabilitiesScreenMenu', NolebaseEnhancedReadabilitiesScreenMenu)                     
     app.provide(InjectionKey, {
