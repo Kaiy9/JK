@@ -8,7 +8,8 @@ import NotFound from "./404.vue";
 // import Comment from "./comment.vue";
 import PostCopyright from "./postCopyright.vue";
 import BackToTop from "./BackToTop.vue";
-import PostTitle from "./PostTitle.vue";
+ // import PostTitle from "./PostTitle.vue";
+ // import PostList from "./PostList.vue";
 
  // import tag from "./tag.vue";
 // import wordCloud from "./wordCloud.vue";
