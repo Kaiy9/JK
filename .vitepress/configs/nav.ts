@@ -81,6 +81,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     ],
     activeMatch: '^/工具',
   },
+  //{ text: "音乐", link: "https://music.xpin.top", target: "_self" },
   {
     text: '97',
     link: '/',
